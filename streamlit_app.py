@@ -28,7 +28,7 @@ def set_bg_hack(main_bg):
 try:
     set_bg_hack("titration_bg.png")
 except:
-    st.warning("Gambar latar belakang tidak ditemukan, menggunakan latar putih default")
+    st.warning("menggunakan latar putih default")
 
 # CSS untuk mempercantik tampilan
 st.markdown("""
