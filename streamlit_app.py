@@ -28,10 +28,10 @@ def set_bg_hack(main_bg):
 try:
     set_bg_hack("titration_bg.png")
 except:
-    st.warning("Gambar latar belakang tidak ditemukan, menggunakan latar putih default")
+    st.warning("istockphoto-1153884366-612x612")
 
 # CSS untuk mempercantik tampilan
-st.markdown("""
+st.markdown(""
 <style>
 div[data-testid="stExpander"] div[role="button"] p {
     font-size: 18px;
